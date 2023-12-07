@@ -15,7 +15,7 @@ const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImage }) => {
                 alt="shoe collection"
                 width={127}
                 height={103}
-                className={`${bigShoeImage === imgURL.bigShoe ? 'drop-shadow-xl ring-coral-red ring-4 rounded-full' : 'drop-shadow-none'} cursor-pointer max-sm:flex-1 hover:scale-110 ease-in-out duration-200 hover: ring-coral-red hover:ring-4 hover:rounded-full `
+                className={`${bigShoeImage === imgURL.bigShoe ? 'drop-shadow-xl ring-[#505C44] ring-4 rounded-full' : 'drop-shadow-none'} cursor-pointer max-sm:flex-1 hover:scale-110 ease-in-out duration-200 hover: ring-[#505C44] hover:ring-4 hover:rounded-full `
                 }
                 onClick={handleClick}
             />
